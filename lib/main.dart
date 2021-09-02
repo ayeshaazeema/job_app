@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:job_app/onboarding_screen.dart';
-import 'package:job_app/splash_screen.dart';
+import 'package:job_app/view/home_screen.dart';
+import 'package:job_app/view/onboarding_screen.dart';
+import 'package:job_app/view/sign_in_screen.dart';
+import 'package:job_app/view/sign_up_screen.dart';
+import 'package:job_app/view/splash_screen.dart';
 
 void main() => runApp(JobApp());
 
@@ -13,7 +16,10 @@ class JobApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => SplashScreen(),
-        '/onboarding': (context) => OnboardingScreen()
+        '/onboarding': (context) => OnboardingScreen(),
+        '/sign_up': (context) => SignUpScreen(),
+        '/sign_in': (context) => SignInScreen(),
+        '/home': (context) => HomeScreen()
       },
     );
   }

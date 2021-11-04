@@ -20,8 +20,8 @@ class CardCategory extends StatelessWidget {
       },
       child: Container(
         margin: EdgeInsets.symmetric(horizontal: 8.0),
-        width: 150,
-        height: 200,
+        width: 150.0,
+        height: 200.0,
         decoration:
             BoxDecoration(image: DecorationImage(image: AssetImage(jobImage))),
         child: Padding(

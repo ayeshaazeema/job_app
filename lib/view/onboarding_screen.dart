@@ -62,7 +62,7 @@ class OnboardingScreen extends StatelessWidget {
                           style: TextButton.styleFrom(
                               backgroundColor: transparentColor,
                               shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(65),
+                                  borderRadius: BorderRadius.circular(65.0),
                                   side: BorderSide(color: Colors.white))),
                           onPressed: () {
                             Navigator.pushNamed(context, '/sign_in');

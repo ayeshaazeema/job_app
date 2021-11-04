@@ -63,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 16.0,
                 ),
                 Container(
-                  height: 200,
+                  height: 200.0,
                   child: ListView(
                     scrollDirection: Axis.horizontal,
                     children: [
